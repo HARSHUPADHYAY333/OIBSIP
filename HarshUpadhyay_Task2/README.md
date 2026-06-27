@@ -33,7 +33,7 @@ The dataset contains information about:
 * Unemployment rates increased significantly during the COVID-19 period.
 * Different states experienced different levels of unemployment.
 * Employment and labour participation rates showed noticeable fluctuations over time.
+* 
+<img width="596" height="407" alt="image" src="https://github.com/user-attachments/assets/c4dbc7d8-afd2-4e72-b16d-f539552d1f40" />
 
-
-Oasis Infobyte Data Science Intern
 
