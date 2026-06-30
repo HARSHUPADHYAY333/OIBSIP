@@ -1,47 +1,85 @@
+# Taks 1 
 
+# Iris Flower Classification
 
-# Task 1  Iris Flower Classification
+# Project Overview
+The Iris Flower Classification project is a Machine Learning classification task that predicts the species of an Iris flower based on its measurements.
+
+The dataset contains information about flower characteristics such as:
+Sepal Length,Sepal Width, Petal Length,Petal Width
+
+Using these features, the model classifies flowers into one of the following species:
+ Iris-setosa, Iris-versicolor, Iris-virginica
+
 
 # Objective
-The objective of this project is to build a Machine Learning model that can classify Iris flowers into three species:
-- Iris Setosa
-- Iris Versicolor
-- Iris Virginica
-based on their sepal and petal measurements.
+The main objective of this project is to build a Machine Learning model that can accurately identify the species of an Iris flower using its measurements.
 
 # Dataset
-The Iris dataset contains:
-- 150 samples
-- 4 numerical features:
-  - Sepal Length
-  - Sepal Width
-  - Petal Length
-  - Petal Width
+The Iris dataset contains 150 flower samples with the following attributes:
 
-# Machine Learning Model
-- Random Forest Classifier
+|  | Description |
+|----------|------------|
+| Sepal Length | Length of the sepal |
+| Sepal Width | Width of the sepal |
+| Petal Length | Length of the petal |
+| Petal Width | Width of the petal |
+| Species | Target class |
 
+---
 # Technologies Used
+
 - Python
 - Pandas
 - NumPy
+- Matplotlib
+- Seaborn
 - Scikit-learn
+- Jupyter Notebook
+
+
+# Machine Learning Algorithm
+Random Forest Classifier was used to train the model because it provides high accuracy and performs well on classification problems.
 
 # Project Workflow
-1. Data Collection
-2. Data Preprocessing
-3. Model Training
-4. Model Evaluation
-5. Prediction
 
-# Learning Outcomes
-- Understanding Supervised Machine Learning
-- Data Preprocessing
-- Training a Random Forest Model
-- Making Predictions using Machine Learning
+#1. Data Loading
+The Iris dataset was loaded using Pandas.
 
-### How to Run
-1. Install required libraries:
-   pip install pandas numpy scikit-learn
+# 2. Data Exploration
+The dataset structure, statistics, and missing values were analyzed.
 
-2. Run the Python file or Jupyter Notebook.
+# 3. Data Visualization
+Different visualizations were created to understand the distribution of flower species.
+
+# 4. Data Preparation
+Features and target variables were separated.
+
+# 5. Model Training
+The Random Forest Classifier was trained using the training dataset.
+
+# 6. Model Evaluation
+The model performance was evaluated using:
+
+- Accuracy Score
+- Classification Report
+- Confusion Matrix
+
+# 7. Prediction
+The trained model was used to predict the species of a new flower sample.
+
+
+# Results
+The model achieved high accuracy in classifying Iris flower species and successfully predicted the correct class for new input samples.
+
+
+# Conclusion
+This project demonstrates how Machine Learning can be used to solve classification problems. The Random Forest model successfully learned patterns from the Iris dataset and accurately classified flower species based on their measurements.
+
+---
+
+## Author
+
+**Harsh Upadhyay**
+
+Oasis Infobyte Data Science Intern
